@@ -1,12 +1,12 @@
 import React from 'react';
 import {
     Container
-} from './styles';
+} from './styles'
 
-export default function Challenges() {
+export default function FAQ() {
     return (
         <Container>
-            Desafios em breve!
+            FAQ em breve!
         </Container>
     )
 }

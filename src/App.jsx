@@ -11,6 +11,7 @@ import MainContainer from './components/MainContainer';
 import Sidebar from './components/Sidebar';
 import GlobalProvider from './contexts/GlobalContext';
 import Challenges from './pages/Challenges';
+import FAQ from './pages/FAQ';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
 
               <Switch>
 
-                <Route path="/canal">
+                <Route path="/faq">
+                  <FAQ />
                 </Route>
 
                 <Route path="/desafios">

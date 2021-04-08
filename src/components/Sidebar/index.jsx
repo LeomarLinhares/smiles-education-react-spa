@@ -16,7 +16,7 @@ function Sidebar() {
                 
                 <Link to='/desafios'><img src="icons/navGame.svg" alt="Game"/><span>Desafios</span></Link>
                 
-                <Link to='/canal'><img src="icons/navAirplane.svg" alt="Game"/><span>FAQ</span></Link>
+                <Link to='/faq'><img src="icons/navAirplane.svg" alt="Game"/><span>FAQ</span></Link>
 
             </nav>
 
